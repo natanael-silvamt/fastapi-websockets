@@ -1,0 +1,1 @@
+gunicorn main:app --bind 0.0.0.0:5000 -w 6 -k uvicorn.workers.UvicornH11Worker
